@@ -1,0 +1,22 @@
+# Requirements file for VAR AI Detection System
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+opencv-python>=4.8.0
+roboflow>=1.1.0
+
+# HTTP requests (instead of supabase library)
+requests>=2.31.0
+
+# Utilities
+python-dotenv>=1.0.0
+pillow>=10.0.0
+
+# Optional: For better video processing
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.8
+
+# Optional: For data analysis and visualization
+pandas>=2.0.0
+matplotlib>=3.7.0
+numpy>=1.24.0
